@@ -1,0 +1,40 @@
+{
+  "name": "water-minder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WaterMinder · 每日喝水打卡小程序",
+  "scripts": {
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:weapp": "taro build --type weapp",
+    "dev:h5": "taro build --type h5 --watch --port 3000",
+    "build:h5": "taro build --type h5"
+  },
+  "dependencies": {
+    "@tarojs/components": "4.1.11",
+    "@tarojs/helper": "4.1.11",
+    "@tarojs/react": "4.1.11",
+    "@tarojs/runtime": "4.1.11",
+    "@tarojs/shared": "4.1.11",
+    "@tarojs/taro": "4.1.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.2",
+    "@tarojs/cli": "4.1.11",
+    "@tarojs/plugin-framework-react": "4.1.11",
+    "@tarojs/plugin-platform-h5": "4.1.11",
+    "@tarojs/plugin-platform-weapp": "4.1.11",
+    "@tarojs/webpack5-runner": "4.1.11",
+    "@types/react": "^18.3.19",
+    "@types/react-dom": "^18.3.5",
+    "babel-preset-taro": "4.1.11",
+    "react-refresh": "^0.18.0",
+    "sass": "^1.86.0",
+    "typescript": "^5.8.2",
+    "webpack": "5.91.0",
+    "ajv": "^8.0.0"
+  }
+}
